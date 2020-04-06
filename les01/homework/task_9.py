@@ -2,7 +2,7 @@
 # Блок-схема https://drive.google.com/file/d/1DpTZsgaY5lA0X-1QZU5GSDOeTxrXo09h/view?usp=sharing
 # Обусловлено считать пользователя идеальным, проверок на ошибки не делаем
 
-input('Введите три разных числа (нажмите Enter для продолжения)')
+input("Введите три разных целых или вещественных числа (нажмите Enter для продолжения) ")
 a = float(input('Первое: '))
 b = float(input('Второе: '))
 c = float(input('Третье: '))
