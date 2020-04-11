@@ -2,9 +2,9 @@
 # Блок-схема https://drive.google.com/file/d/1DpTZsgaY5lA0X-1QZU5GSDOeTxrXo09h/view?usp=sharing
 # Обусловлено считать пользователя идеальным, проверок на ошибки не делаем
 
-y = int(input('Введите год в формате YYYY: '))
+y = int(input("Введите год в формате YYYY: "))
 
 if y % 4 != 0 or (y % 100 == 0 and y % 400 != 0):
-    print('Год не високосный')
+    print("Год не високосный")
 else:
-    print('Год високосный')
+    print("Год високосный")
