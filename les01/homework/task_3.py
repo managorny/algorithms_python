@@ -8,12 +8,14 @@ y1 = int(input("координата точки A по оси y: "))
 x2 = int(input("координата точки B по оси x: "))
 y2 = int(input("координата точки B по оси y: "))
 
-k = int((y1 - y2) / (x1 - x2))
-b = int(y2 - k * x2)
-
-if b > 0:
-    print(f'y = {k}x + {b}')
-elif b == 0:
-    print(f'y = {k}x')
+if x1 == x2:
+    print("Координаты по оси x не должны быть равны")
 else:
-    print(f'y = {k}x - {b*(-1)}')
+    k = int((y1 - y2) / (x1 - x2))
+    b = int(y2 - k * x2)
+    if b > 0:
+        print(f'y = {k}x + {b}')
+    elif b == 0:
+        print(f'y = {k}x')
+    else:
+        print(f'y = {k}x - {b*(-1)}')
